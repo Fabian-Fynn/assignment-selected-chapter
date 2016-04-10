@@ -8,4 +8,6 @@ export function es5() {
 }
 
 export function es6() {
+  var s = Symbol('1');
+  return s;
 }
